@@ -1,0 +1,7 @@
+{
+  "name": "Copy of DialysisCare - 透析伴侣",
+  "description": "专为透析患者设计的健康管理应用，记录体重、血压，管理用药，并提供AI健康分析。",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
