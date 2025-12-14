@@ -22,7 +22,8 @@ export interface Medication {
 export interface PatientProfile {
   name: string;
   age: number;
-  dialysisAge?: number; // Months on dialysis
+  dialysisStartDate?: string; // YYYY-MM-DD
+  dialysisAge?: number; // Months on dialysis (Automatically calculated)
 }
 
 export enum AppView {
